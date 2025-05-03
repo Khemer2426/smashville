@@ -1,0 +1,42 @@
+#sidebar .logo {
+    float: left;
+    margin-right: 20px;
+    height: 50px;
+    margin-top: 8px;
+}
+#sidebar .logo-title {
+    display: inline-block;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: 64px;
+}
+.nav-main-submenu .nav-main-link:hover, .nav-main-submenu .nav-main-link.active,
+.nav-main-link.active,
+.nav-main-link.active > .nav-main-link-icon,
+.sidebar-dark #sidebar .nav-main-item.open>.nav-main-link-submenu {
+    color: #fff !important;
+}
+.was-validated .form-control:invalid, .form-control.is-invalid {
+    border-color: #d61f47 !important;
+}
+
+#sidebar .js-sidebar-scroll {
+    background: #0c91cf;
+    color: #323a47 !important;
+}
+
+.nav-main-link .nav-main-link-icon {
+    color: #323a47 !important;
+}
+
+.nav-main-submenu .nav-main-link.active, .nav-main-link.active, .nav-main-link.active > .nav-main-link-icon, .sidebar-dark #sidebar .nav-main-item.open > .nav-main-link-submenu {
+    color: #f7fafb !important;
+}
+.nav-main-link:hover {
+    background-color: #2378a0 !important;
+}
+
+.nav-main a.nav-main-link, 
+.nav-main a.nav-main-link i:before {
+    color: #fff !important;
+}
